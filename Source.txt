@@ -1,2 +1,90 @@
 1) code for feature 1
 *************************
+WIN@DESKTOP-MDEIBM5 MINGW64 ~
+$ pwd
+/c/Users/WIN
+
+WIN@DESKTOP-MDEIBM5 MINGW64 ~
+$ mkdir demo
+
+WIN@DESKTOP-MDEIBM5 MINGW64 ~
+$ cd demo
+
+WIN@DESKTOP-MDEIBM5 MINGW64 ~/demo
+$ mkdir sourcefile.txt
+
+WIN@DESKTOP-MDEIBM5 MINGW64 ~/demo
+$ cd..
+bash: cd..: command not found
+
+WIN@DESKTOP-MDEIBM5 MINGW64 ~/demo
+$ cd ..
+
+WIN@DESKTOP-MDEIBM5 MINGW64 ~
+$ cd ..
+
+WIN@DESKTOP-MDEIBM5 MINGW64 /c/Users
+$ cd ..
+
+WIN@DESKTOP-MDEIBM5 MINGW64 /c
+$ cd ..
+
+WIN@DESKTOP-MDEIBM5 MINGW64 /
+$ cd d
+
+WIN@DESKTOP-MDEIBM5 MINGW64 /d
+$ pwd
+/d
+
+WIN@DESKTOP-MDEIBM5 MINGW64 /d
+$ mkdir First
+
+WIN@DESKTOP-MDEIBM5 MINGW64 /d
+$ cd First
+
+WIN@DESKTOP-MDEIBM5 MINGW64 /d/First
+$ pwd
+/d/First
+
+WIN@DESKTOP-MDEIBM5 MINGW64 /d/First
+$ git init
+Initialized empty Git repository in D:/First/.git/
+
+WIN@DESKTOP-MDEIBM5 MINGW64 /d/First (master)
+$ ls -A
+.git/
+
+WIN@DESKTOP-MDEIBM5 MINGW64 /d/First (master)
+$ git add .
+
+WIN@DESKTOP-MDEIBM5 MINGW64 /d/First (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Source.txt
+
+
+WIN@DESKTOP-MDEIBM5 MINGW64 /d/First (master)
+$ git commit -m "first commit"
+[master (root-commit) ca29d70] first commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 Source.txt
+
+WIN@DESKTOP-MDEIBM5 MINGW64 /d/First (master)
+$ git remote add origin https://github.com/Pavandeveloper2021/Testdemo.git
+
+WIN@DESKTOP-MDEIBM5 MINGW64 /d/First (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 239 bytes | 119.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Pavandeveloper2021/Testdemo.git
+ * [new branch]      master -> master
+
+WIN@DESKTOP-MDEIBM5 MINGW64 /d/First (master)
+$
